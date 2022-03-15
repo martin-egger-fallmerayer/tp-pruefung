@@ -1,0 +1,7 @@
+grant codebase "file:/C:/Users/alewo/OneDrive - Bildungsdirektion/Oberschule/5.Klasse/Technologie und Planung/06 RMI2.0" {
+        permission java.net.SocketPermission "localhost", "accept, connect"; //Client 10.10.50.1 will be accepted and the Server can connect to the Client.
+        permission java.net.SocketPermission "localhost", "accept, connect"; //Client(on localhost) 10.10.30.14 will be accepted and the Server can connect to the Client.
+        permission java.net.SocketPermission "localhost", "connect"; //Server can connect to 10.10.30.14(localhost) - for the RMI-Registry
+};
+
+
